@@ -4,7 +4,7 @@ import numpy as np
 from io import BytesIO
 
 st.set_page_config(page_title="Promoción Casino - App Unificada", layout="wide")
-st.title("🎰 App Unificada - Promociones Casino")
+st.title("🎰 App Unificada - Procesar Promos Casino - NOV2025")
 
 # === SUBIDA DE ARCHIVOS ===
 col1, col2 = st.columns(2)
@@ -159,3 +159,4 @@ if archivo_jugado and archivo_depositos:
         output.seek(0)
 
         st.download_button("📥 Descargar Excel", data=output, file_name="usuarios_bonificables.xlsx", mime="application/octet-stream")
+
